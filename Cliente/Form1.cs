@@ -43,6 +43,7 @@ namespace Cliente
                 flujo?.Close();
                 remoto?.Close();
             }
+            
             // Desactiva los controles relacionados con la validación de placas
             panPlaca.Enabled = false;
             chkLunes.Enabled = false;

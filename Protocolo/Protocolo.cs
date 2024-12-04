@@ -51,6 +51,7 @@ namespace Protocolo
             return pedido.ToString();
         }
 
+        
         // Metodo estático que resuelve un pedido dependiendo de su comando
         public static Respuesta ResolverPedido(Pedido pedido, string direccionCliente)
         {
